@@ -42,5 +42,7 @@ defmodule InmanaWeb.Router do
 
       forward "/mailbox", Plug.Swoosh.MailboxPreview
     end
+
+    forward "/sent_emails", Bamboo.SentEmailViewerPlug
   end
 end
