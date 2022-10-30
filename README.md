@@ -4,10 +4,7 @@
 
 <br>
 
-<p align="center" id="project">
-  Inmana is an API to manage restaurant products that are about to expire. 
-</p>
-
+<p align="center" id="project">Inmana is an API to manage restaurant products that are about to expire, sending emails weekly to remind them.</p>
 <br>
 
 <h2 id="techs">
@@ -51,3 +48,6 @@
     mix test
 
 </br>
+
+## References
+- NextLevelWeek 5.0 @Rocketseat</h4>
