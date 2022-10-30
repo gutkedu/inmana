@@ -1,19 +1,53 @@
 # Inmana
 
-To start your Phoenix server:
+<p align="center"><img src="https://www.vectorlogo.zone/logos/elixir-lang/elixir-lang-ar21.svg"/></p>
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+<br>
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+<p align="center" id="project">
+  Inmana is an API to manage restaurant products that are about to expire. 
+</p>
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+<br>
 
-## Learn more
+<h2 id="techs">
+  🚀 Technologies
+</h2>
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- [Elixir](https://elixir-lang.org/)
+- [Ecto](https://hexdocs.pm/ecto/Ecto.html)
+- [Phoenix Framework](https://www.phoenixframework.org/)
+- [Credo](https://github.com/rrrene/credo)
+- [ExCoveralls](https://github.com/parroty/excoveralls)
+- [Bamboo](https://github.com/thoughtbot/bamboo)
+
+## Install Inmana
+
+    --Open terminal--
+
+    #Clone repo from github
+    git clone https://github.com/joaopealves/Inmana.git
+
+    #Create postgres in docker
+    docker compose up --d
+
+    #Entry in Inmana folder
+    cd Inmana
+
+    #Install deps
+    mix deps.get
+
+    #if your postgresql is installed correctly, type
+    #Create Database and migrations
+    mix ecto.setup
+
+    #Open interactive terminal
+    iex -S mix
+
+    #Open Phoenix server
+    mix phx.server
+
+    #Exec test
+    mix test
+
+</br>
